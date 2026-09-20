@@ -13,3 +13,5 @@
 # 2. Data Structure
 
 ***
+
+* 1. head node를 가지는 이중 연결 리스트
