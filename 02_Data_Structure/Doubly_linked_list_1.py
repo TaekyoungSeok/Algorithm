@@ -38,14 +38,15 @@ class DoublyLinkedList:
 
         print()
 
-L = DoublyLinkedList()
+if __name__ == '__main__':
+    L = DoublyLinkedList()
 
-n1 = L.insert(L.head, 10)
-n2 = L.insert(n1, 20)
-n3 = L.insert(n2, 30)
+    n1 = L.insert(L.head, 10)
+    n2 = L.insert(n1, 20)
+    n3 = L.insert(n2, 30)
 
-L.print_list()
+    L.print_list()
 
-L.delete(n2)
+    L.delete(n2)
 
-L.print_list()
+    L.print_list()

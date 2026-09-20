@@ -14,4 +14,5 @@
 
 ***
 
-* head node를 가지는 이중 연결 리스트
+* head node를 가지는 이중 연결 리스트 (Doubly_linked_list_1)
+* head node를 없이 구현한 이중 연결 리스트 (Doubly_linked_list_2)
