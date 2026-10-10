@@ -97,12 +97,12 @@ class Infix2Postfix:
 
             self.output.append(operator)
 
-        return " ".join(self.output)
+        return self.output
     
 def evaluate_postfix(expression):
     stack = []
 
-    for token in expression.split():
+    for token in expression:
         if token in ("+", "-", "*", "/", "^"):
             if len(stack) < 2:
                 raise ValueError("연산에 필요한 숫자가 부족합니다.")
@@ -142,5 +142,5 @@ if __name__ == "__main__":
     postfix = converter.infix_to_postfix(expression)
     result = evaluate_postfix(postfix)
 
-    print("후위 수식:", postfix)
+    print("후위 수식:", " ".join(postfix))
     print("계산 결과:", result)
