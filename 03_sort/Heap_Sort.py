@@ -13,13 +13,11 @@ def percolate_down(array, k, n):
 
             percolate_down(array, child, n)
 
-
 def build_heap(array):
     n = len(array)
 
     for i in range((n - 2) // 2, -1, -1):
         percolate_down(array, i, n)
-
 
 def delete_max(array, n):
     max_value = array[0]
@@ -30,13 +28,11 @@ def delete_max(array, n):
 
     return max_value
 
-
 def heapSort(array):
     build_heap(array)
 
     for i in range(len(array) - 1, 0, -1):
         array[i] = delete_max(array, i + 1)
-
 
 if __name__ == "__main__":
     data = [4, 2, 8, 7, 3, 3, 5, 1, 9]
