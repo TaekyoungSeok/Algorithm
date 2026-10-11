@@ -17,7 +17,7 @@ def bubbleSort2(array):
 
     return array
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data = [29, 10, 14, 37, 13]
 
     print("정렬 전:", data)

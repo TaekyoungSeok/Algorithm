@@ -124,7 +124,7 @@ class DoublyLinkedList:
 
         print("")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     L = DoublyLinkedList()
 
     L.insert_first(20)
