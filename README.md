@@ -17,3 +17,14 @@
 * Stack을 활용한 Infix를 Postfix로 바꾸고 Postfix 수식 계산 (Stack_example)
 * 배열 표현법을 이용한 CompleteBinary Tree 표현 (CompleteBinaryTree_Array)
 * 링크 표현법을 이용한 CompleteBinary Tree 표현 (CompleteBinaryTree_Link)
+
+#3. Sorting
+
+* 선택 정렬 (Selection_Sort)
+* 이미 정렬이 되었는 지 판단을 하지 않는 버블 정렬 *정렬된 경우 O(n^2) (Bubble_Sort_1)
+* 이미 정렬이 되어있는 지 판단하는 버블 정렬 *정렬된 경우 O(n) (Bubble_Sort_2)
+* 재귀 방식을 사용하지 않은 삽입 정렬 (Insertion_Sort_1)
+* 재귀 방식을 사용한 삽입 정렬 (Insertion_Sort_2)
+* 병합 정렬 (Merge_Sort)
+* 퀵 정렬 (Quick_Sort)
+* 힙 정렬 (Heap_Sort)
