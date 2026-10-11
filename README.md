@@ -15,4 +15,5 @@
 * head node를 가지는 이중 연결 리스트 (Doubly_linked_list_1)
 * head node를 없이 구현한 이중 연결 리스트 (Doubly_linked_list_2)
 * Stack을 활용한 Infix를 Postfix로 바꾸고 Postfix 수식 계산 (Stack_example)
-* 배열 표현법을 이용한 Binary Tree 표현 (BinaryTree_Array)
+* 배열 표현법을 이용한 CompleteBinary Tree 표현 (CompleteBinaryTree_Array)
+* 링크 표현법을 이용한 CompleteBinary Tree 표현 (CompleteBinaryTree_Link)

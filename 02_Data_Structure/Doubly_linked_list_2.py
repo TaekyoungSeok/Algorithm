@@ -16,6 +16,7 @@ class DoublyLinkedList:
 
         if self.head is None:
             self.tail = newnode
+
         else:
             self.head.prev = newnode
 
@@ -28,6 +29,7 @@ class DoublyLinkedList:
 
         if self.tail is None:
             self.head = newnode
+
         else:
             self.tail.next = newnode
 
@@ -46,6 +48,7 @@ class DoublyLinkedList:
 
         if target.next is None:
             self.tail = newnode
+            
         else:
             target.next.prev = newnode
 
@@ -59,6 +62,7 @@ class DoublyLinkedList:
 
         if self.head is None:
             self.tail = None
+            
         else:
             self.head.prev = None
 
@@ -78,10 +82,13 @@ class DoublyLinkedList:
 
         if del_node is None:
             return
+        
         elif del_node.prev is None:
             self.delete_first()
+
         elif del_node.next is None:
             self.delete_last()
+
         else:
             del_node.prev.next = del_node.next
             del_node.next.prev = del_node.prev
