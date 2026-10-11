@@ -18,7 +18,7 @@
 * 배열 표현법을 이용한 CompleteBinary Tree 표현 (CompleteBinaryTree_Array)
 * 링크 표현법을 이용한 CompleteBinary Tree 표현 (CompleteBinaryTree_Link)
 
-#3. Sorting
+# 3. Sorting
 
 * 선택 정렬 (Selection_Sort)
 * 이미 정렬이 되었는 지 판단을 하지 않는 버블 정렬 *정렬된 경우 O(n^2) (Bubble_Sort_1)
